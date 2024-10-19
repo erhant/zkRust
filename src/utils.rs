@@ -284,7 +284,6 @@ pub fn prepare_workspace(
     copy_dependencies(&toml_path, program_toml_dir)?;
     copy_dependencies(&toml_path, host_toml_dir)?;
 
-    println!("something");
     Ok(())
 }
 
